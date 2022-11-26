@@ -1,3 +1,5 @@
+#TimeComplexity: O(nlogk)
+#SpaceComplexity: O(k)
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:
         hq= [] # creating the heap array
